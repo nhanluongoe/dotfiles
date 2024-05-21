@@ -24,7 +24,7 @@ export ZSH="/Users/nhanluongoe/.oh-my-zsh"
 ZSH_THEME="cloud"
 
 # Plugins
-plugins=(git zsh-autosuggestions tmux z)
+plugins=(git zsh-autosuggestions tmux z thefuck)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
