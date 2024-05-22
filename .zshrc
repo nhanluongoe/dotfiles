@@ -24,7 +24,7 @@ export ZSH="/Users/nhanluongoe/.oh-my-zsh"
 ZSH_THEME="cloud"
 
 # Plugins
-plugins=(git zsh-autosuggestions tmux z thefuck)
+plugins=(git zsh-autosuggestions tmux z thefuck zsh-syntax-highlighting)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -39,8 +39,12 @@ source <(ng completion script)
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
 
+# Zsh syntax highlighting
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Alias
 alias zshconf="z dotfiles && nvim .zshrc"
 alias lg="lazygit"
 alias java11=""
 alias ls="eza -a --icons --no-user --no-time"
+
