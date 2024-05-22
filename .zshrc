@@ -40,7 +40,7 @@ source <(ng completion script)
 source $ZSH/oh-my-zsh.sh
 
 # Alias
-alias zshconf="nvim ~/.zshrc"
+alias zshconf="z dotfiles && nvim .zshrc"
 alias lg="lazygit"
 alias java11=""
 alias ls="eza -a --icons --no-user --no-time"
