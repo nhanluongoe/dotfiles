@@ -23,6 +23,7 @@ export ZSH="/Users/nhanluongoe/.oh-my-zsh"
 # Zsh theme
 ZSH_THEME="cloud"
 
+
 # Plugins
 plugins=(git zsh-autosuggestions tmux z thefuck zsh-syntax-highlighting)
 
@@ -40,7 +41,7 @@ source <(ng completion script)
 source $ZSH/oh-my-zsh.sh
 
 # Zsh syntax highlighting
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Alias
 alias zshconf="z dotfiles && nvim .zshrc"
